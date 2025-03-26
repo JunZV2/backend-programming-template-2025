@@ -161,6 +161,11 @@ const errorTypes = {
     status: 500,
     code: 'DB_ERROR',
   },
+  INVALID_PASSWORD: {
+    description: 'INVALID PASSWORD',
+    status: 403,
+    code: 'INVALID_PASSWORD',
+  },
 };
 
 const errorResponder = (errorType, message = '') => {
